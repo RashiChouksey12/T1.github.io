@@ -24,7 +24,7 @@
         right: 0;
     }
 
-    .inner-header nav .menu-btn i {
+    .inner-header .menu-btn i {
         display: block;
 
     }
@@ -33,7 +33,7 @@
         content: "\f00d";
     }
 
-    .inner-header nav ul {
+    .inner-header ul {
         position: fixed;
         top: 113px;
         left: -100%;
@@ -46,18 +46,18 @@
 
     #click:checked~ul {
         left: 0;
-    } .inner-header nav  {
+    } .inner-header  {
       border: none;
        
     }
 
-    .inner-header nav ul li {
+    .inner-header ul li {
         width: 100%;
        
     }
 
 
-    .inner-header nav ul li a {
+    .inner-header ul li a {
         display: block;
         transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         font-weight: bold;
@@ -106,4 +106,6 @@
     .psd{
         display: block;
     }
+    .img {
+        width: 75%;}
 }
