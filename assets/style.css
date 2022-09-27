@@ -209,6 +209,7 @@ input[type="checkbox"] {
 .slides-div {
     display: flex;
     margin: 0 20px;
+    list-style: none;
 }
 .title .right-section .img .slide-div{
      width: 15px;
@@ -284,9 +285,9 @@ input[type="checkbox"] {
     width: 75%;
     margin: 0 auto;
 }
-.contactus{
-    padding-top: 25px;
-    padding-bottom: 25px;
+.contactus {
+    padding-top: 35px;
+    padding-bottom: 35px
 }
 
 .contactus-content {
@@ -295,6 +296,7 @@ input[type="checkbox"] {
     background-color: #e0e0e0;
     border-left: 10px solid #0099ff;
     align-items: center;
+    padding: 0 25px;
 }
 
 .contactus-content .left-content h1 {
