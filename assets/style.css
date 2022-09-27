@@ -14,7 +14,7 @@ img {
 }
 .container {
     padding: 0px 20px;
-    max-width: 1200px;
+    max-width: 970px;
     margin: 0 auto;
 }
 .toggleBtn {
@@ -22,16 +22,19 @@ img {
     background: #000;
     width: 30px;
     color: white;
-    font-size: 30px;
+    font-size: 17px;
     border-radius: 0px 0px 7px 7px;
     border-top: none;
     font-family: 'Noto Serif Georgian', serif;
     cursor: pointer;
     position: absolute;
-    right: 336px;
+    right: 425px;
+    font-weight: 800;
 }
 .top-Header {
     background: #000;
+    position: fixed;
+    width: 100%;
     position: relative;
 }
 .top-Header .header-content {
@@ -85,6 +88,7 @@ img {
 .inner-header  {
     border-bottom: 5px solid #cccc;
     padding: 25px 0 0 0;
+    /* margin-top: 60px; */
 }
 .inner-header  ul {
     display: flex;
@@ -176,15 +180,12 @@ input[type="checkbox"] {
 .title-content .left-section {
     width: 40%;
 }
-.title-content .left-section h2 {
-    width: 89%;
-}
+
 
 .title-content .left-section p {
     font-size: 16px;
     line-height: 22px;
     color: #666666;
-    width: 84%;
     padding: 20px 0 20px 0;
 }
 
@@ -282,7 +283,7 @@ input[type="checkbox"] {
     line-height: 21px;
     color: #666666;
     text-align: center;
-    width: 75%;
+ 
     margin: 0 auto;
 }
 .contactus {
@@ -296,11 +297,11 @@ input[type="checkbox"] {
     background-color: #e0e0e0;
     border-left: 10px solid #0099ff;
     align-items: center;
-    padding: 0 32px;
+    padding: 0 32px 0 0;
 }
 .contactus-content .left-content {
 
-    padding: 28px;
+    padding: 28px 32px;
 }
 
 
@@ -332,8 +333,10 @@ input[type="checkbox"] {
 }
 .top-footer .inner-container{
  width: 25%;
-
  margin-right:15px ;
+}
+.top-footer .inner-container:last-child{
+    margin-right: 0;
 }
 .right-align{
     display: flex;
@@ -368,15 +371,16 @@ input[type="checkbox"] {
     height: 90px;
     background-color: #232323;
     margin: 15px 0;
+    border: 1px solid #555555;
 }
-.abousUs-img p{
+.abousUs-img-cont{
 color: #fff;
 text-align: center;
 padding: 31px 0;
 }
 
-.about-us p {
-    width: 95%;
+.abousUs-bottom-cont {
+  
     font-size: 12px;
     line-height: 19px;
     color: #666666;
@@ -415,7 +419,7 @@ padding: 31px 0;
     line-height: 17px;
     color: #666666;
     padding: 0px 0 10px 0px;
-    width: 223px;
+   
 }
 
 .blog p strong {

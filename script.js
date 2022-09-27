@@ -4,7 +4,7 @@ $(document).ready(function () {
     $(".btn").click(function () {
         //   button
         $(this).text(function (show, hide) {
-            return hide === '-' ? '+' : '-'
+            return hide =='-' ? '+' : '-'
         });
 
         //   toggle
@@ -12,6 +12,9 @@ $(document).ready(function () {
         $(".top-Header").animate({ height: 'toggle' });
         // $(".top-Header").animate({height:'toggle'});
     });
+
+
+    
     //  slider
     var currentSlide = 1;
     var $slider = $(".slider");
