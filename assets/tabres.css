@@ -10,8 +10,9 @@
     }
 
     .nobodys {
-        padding: 25px 0 0 0;
+        padding: 25px 0 25px 0px;
     }
+    
 
     .nobodys-heading {
         font-size: 22px;
@@ -36,7 +37,7 @@
     }
     .title .right-section {
        
-        width: 440px;
+     
         margin: 0 auto;
         padding: 20px 0;
     }
@@ -47,13 +48,15 @@
 
     .moniter .leftcontent {
         margin: auto;
-        padding: 20px 0;
+     
     }
 
     .moniter .rightcontent {
         width: 100%;
     }
-
+    .moniter .rightcontent {
+        width: 100%;
+        padding: 20px 0 0 0;}
     .moniter .rightcontent .inner-content {
 
         padding: 0 30px;
@@ -103,7 +106,7 @@
 
     .abousUs-img {
 
-        margin: 0 auto;
+        margin: 25px auto;
     }
 
     .about-us p {

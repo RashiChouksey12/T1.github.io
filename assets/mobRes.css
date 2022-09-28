@@ -10,7 +10,7 @@
         justify-content: center;
     }
 
-    .right-content {
+    .header-content .right-content {
 
         justify-content: center;
         padding: 10px 0;
@@ -106,6 +106,26 @@
     .psd{
         display: block;
     }
+    .psd-top-container{
+        padding-bottom: 10px;
+    }
     .img {
-        width: 75%;}
+        width: 100%;
+    }
+        .title-content .left-section{
+            width: 100%;
+        }
+        .title .right-section {
+            width: 90%;
+        }
+        .contactus-content .right-content {
+            text-align: center;
+        }
+        .top-footer .inner-container {
+            width: 100%;}
+            .right-align {
+                display: block;
+                width: 100%;
+                padding: 20px 0;
+            }
 }
